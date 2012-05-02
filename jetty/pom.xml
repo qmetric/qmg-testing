@@ -16,6 +16,36 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty-plus</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty-naming</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.mortbay.jetty</groupId>
+            <artifactId>jetty-util</artifactId>
+            <version>${jetty.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context</artifactId>
+            <version>${springframework.version}</version>
+        </dependency>
+
         <!-- test scope -->
 
     </dependencies>
