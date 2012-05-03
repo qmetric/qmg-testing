@@ -39,6 +39,7 @@
             <groupId>xalan</groupId>
             <artifactId>xalan</artifactId>
             <version>${xalan.version}</version>
+            <scope>runtime</scope> <!-- used by XMLMatcher to set transformer factory -->
         </dependency>
 
         <dependency>
